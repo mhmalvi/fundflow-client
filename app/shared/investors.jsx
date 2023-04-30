@@ -26,11 +26,13 @@ const Investors = () => {
   };
 
   return (
-    <div className="px-2 lg:px-5 overflow-x-hidden">
+    <div className="overflow-x-hidden">
       <div className="max-w-[1280px] px-3 investor_shine bg-home-color my-10 lg:my-20 p-20 mx-auto rounded-3xl text-white relative">
         <Zoom triggerOnce>
           <div className="text-2xl lg:text-5xl font-semibold text-center pb-10">
-            {lang==="eng"?"Our Happy Investors":"আমাদের মূল্যবান বিনিয়োগকারীরা"}
+            {lang === "eng"
+              ? "Our Happy Investors"
+              : "আমাদের মূল্যবান বিনিয়োগকারীরা"}
           </div>
         </Zoom>
         <div
@@ -65,8 +67,13 @@ const Investors = () => {
                       />
                     </div>
                     <div className="text-white text-lg lg:text-xl pt-5 pb-2">
-                      <span className="font-semibold">{lang==="eng"? (post?.name):(post?.ban_name)}</span>,{" "}
-                      {lang==="eng"? (post?.designation):(post?.ban_designation)}
+                      <span className="font-semibold">
+                        {lang === "eng" ? post?.name : post?.ban_name}
+                      </span>
+                      ,{" "}
+                      {lang === "eng"
+                        ? post?.designation
+                        : post?.ban_designation}
                     </div>
                     <div className="w-[10rem] mx-auto flex justify-evenly pb-5">
                       {[...Array(post?.stars)].map((_, i) => (
@@ -74,7 +81,9 @@ const Investors = () => {
                       ))}
                     </div>
                     <div className="w-11/12 lg:w-9/12 text-white mx-auto text-sm lg:text-2xl">
-                      {lang==="eng"? (post?.testimonial):(post?.ban_testimonial)}
+                      {lang === "eng"
+                        ? post?.testimonial
+                        : post?.ban_testimonial}
                     </div>
                   </div>
                 ))}

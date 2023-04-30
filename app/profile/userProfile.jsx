@@ -6,15 +6,15 @@ import { useSelector } from "react-redux";
 const UserProfile = () => {
   const { lang } = useSelector((state) => state?.language);
   return (
-    <div className="lg:w-9/12 h-full mx-auto p-4 lg:pl-20 pt-10 lg:pt-20">
+    <div className="lg:w-9/12 mx-auto p-4 lg:pl-20 pt-0 lg:pt-30">
       <div className="flex items-center gap-5 relative">
-        <Image src={ProfilePic} alt="img" className="lg:absolute lg:-left-52 lg:top-5 z-50" />
+        <Image src={ProfilePic} alt="img" className="lg:absolute lg:-left-64 xl:-left-84 lg:top-0 z-[100]" />
         <div>
           <div className="text-xl">Atmaram Tukharaman</div>
           <div className="text-sm italic">Atmaram31@gmail.com</div>
         </div>
       </div>
-      <div className="w-full border my-10"></div>
+      <div className="w-full border my-5"></div>
       <div className="lg:w-2/3 text-lg">
         {lang==="eng"? 
         `This handout will help you understand how paragraphs are formed, how to
@@ -24,7 +24,7 @@ const UserProfile = () => {
         আরও শক্তিশালী অনুচ্ছেদ তৈরি করুন এবং কীভাবে সম্পূর্ণ এবং স্পষ্টভাবে প্রকাশ করবেন
         আপনার ধারণা।`}
       </div>
-      <div className="w-full border my-10"></div>
+      <div className="w-full border my-5"></div>
       <div className="flex flex-wrap">
         <div className="w-[5rem] lg:w-[10rem] flex flex-col m-10">
           <div className="text-sm font-semibold">{lang==="eng"? "Business Id":"ব্যবসার আইডি"}</div>
@@ -51,8 +51,8 @@ const UserProfile = () => {
           <div className="">{lang==="eng"? "2345622562":"ই৪৯০৩৭২১৮"}</div>
         </div>
       </div>
-      <div className="w-full border my-10"></div>
-      <div className="flex flex-wrap justify-between lg:w-1/2">
+      <div className="w-full border my-5"></div>
+      <div className="flex flex-wrap justify-between xl:w-1/2">
         <div className="w-[5rem] lg:w-[10rem] flex flex-col m-10">
           <div className="text-sm font-semibold">{lang==="eng"? "Contact":"যোগাযোগ"}</div>
           <div className="">{lang==="eng"? "+2345622562":"+৪৯০৩৭২১৮৪৯০"}</div>

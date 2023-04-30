@@ -44,7 +44,7 @@ const ProductHeader = () => {
     };
 
   return (
-    <div className="rounded-2xl max-w-[1280px] px-5 mx-auto mt-20">
+    <div className="rounded-2xl max-w-[1280px] px-4 lg:px-30 mx-auto mt-20">
       <div className="flex flex-col lg:flex-row rounded-xl shadow-md bg-white">
         <JackInTheBox direction="left" triggerOnce className="sm:w-6/12">
           <div className="relative lg:p-5">
@@ -98,56 +98,69 @@ const ProductHeader = () => {
         </JackInTheBox>
         <Fade direction="down" triggerOnce className="sm:w-6/12">
           <div className="w-full h-full text-black p-5 lg:p-10 relative">
-            <div className="lg:text-xl text-zinc-500 pb-5">{lang==="eng"?"Category: Food":"শ্রেণী: খাদ্য"}</div>
-            <div className="lg:text-xl text-zinc-500 pb-5">{lang==="eng"?"10 Days late":"দশ দিন বিলম্বে"}</div>
-            <div className="lg:text-xl text-zinc-500">{lang==="eng"?"Equity":"ইকুইটি"}</div>
+            <div className="lg:text-xl text-zinc-500 pb-5">
+              {lang === "eng" ? "Category: Food" : "শ্রেণী: খাদ্য"}
+            </div>
+            <div className="lg:text-xl text-zinc-500 pb-5">
+              {lang === "eng" ? "10 Days late" : "দশ দিন বিলম্বে"}
+            </div>
+            <div className="lg:text-xl text-zinc-500">
+              {lang === "eng" ? "Equity" : "ইকুইটি"}
+            </div>
             <div className="text-2xl lg:text-4xl font-semibold mb-5 mt-5">
-              {lang==="eng"?"Pasta Bolognese":"পাস্তা বোলোনিজ"}
+              {lang === "eng" ? "Pasta Bolognese" : "পাস্তা বোলোনিজ"}
             </div>
             <div className="text-sm lg:text-base mb-10">
-            {lang==="eng"?
-              "Below, we answer the questions people most often have about crowdfunding when they’re trying to decide if they want to start an online fundraiser."
-              :
-              "নীচে, আমরা প্রায়শই লোকেরা যে প্রশ্নগুলি করে তার উত্তর দিই৷ ক্রাউডফান্ডিং যখন তারা সিদ্ধান্ত নেওয়ার চেষ্টা করছে তারা শুরু করতে চায় কিনা একটি অনলাইন তহবিল সংগ্রহকারী।"}
+              {lang === "eng"
+                ? "Below, we answer the questions people most often have about crowdfunding when they’re trying to decide if they want to start an online fundraiser."
+                : "নীচে, আমরা প্রায়শই লোকেরা যে প্রশ্নগুলি করে তার উত্তর দিই৷ ক্রাউডফান্ডিং যখন তারা সিদ্ধান্ত নেওয়ার চেষ্টা করছে তারা শুরু করতে চায় কিনা একটি অনলাইন তহবিল সংগ্রহকারী।"}
             </div>
             <div className="grid grid-cols-2 text-sm lg:text-base mb-10 gap-4 lg:gap-10">
               <div className="flex items-center">
                 <div className="text-zinc-500 pr-2 whitespace-nowrap">
-                {lang==="eng"?"Raised":"সংগৃহীত"}:
+                  {lang === "eng" ? "Raised" : "সংগৃহীত"}:
                 </div>
-                <div className="text-lg lg:text-2xl">{lang==="eng"?"$5000":"$৫০০০"}</div>
+                <div className="text-lg lg:text-2xl">
+                  {lang === "eng" ? "$5000" : "$৫০০০"}
+                </div>
               </div>
               <div className="flex items-center">
                 <div className="text-zinc-500 pr-2 whitespace-nowrap">
-                  {lang==="eng"?"Target":"টার্গেট"}:
+                  {lang === "eng" ? "Target" : "টার্গেট"}:
                 </div>
-                <div className="text-lg lg:text-2xl">{lang==="eng"?"$20000":"$২০,০০০"}</div>
+                <div className="text-lg lg:text-2xl">
+                  {lang === "eng" ? "$20000" : "$২০,০০০"}
+                </div>
               </div>
               <div className="flex items-center">
                 <div className="text-zinc-500 pr-2 whitespace-nowrap">
-                  {lang==="eng"?"Investors":"বিনিয়োগকারী"}:
+                  {lang === "eng" ? "Investors" : "বিনিয়োগকারী"}:
                 </div>
-                <div className="text-lg lg:text-2xl">{lang==="eng"?"33":"৩৩"}</div>
+                <div className="text-lg lg:text-2xl">
+                  {lang === "eng" ? "33" : "৩৩"}
+                </div>
               </div>
               <div className="flex items-center">
                 <div className="text-zinc-500 pr-2 whitespace-nowrap">
-                  {lang==="eng"?"Share price":"শেয়ারের দাম"}:
+                  {lang === "eng" ? "Share price" : "শেয়ারের দাম"}:
                 </div>
-                <div className="text-lg lg:text-2xl">{lang==="eng"?"$1000":"$১০০০"}</div>
+                <div className="text-lg lg:text-2xl">
+                  {lang === "eng" ? "$1000" : "$১০০০"}
+                </div>
               </div>
             </div>
 
             <div className="lg:absolute lg:bottom-[8%] flex justify-around gap-3 lg:gap-10">
               <Link href={"../payment"}>
-                <div className="inline-block bg-home-color text-white tracking-widest text-sm text-center rounded-lg shadow-lg py-3 px-10 lg:px-20 cursor-pointer">
-                {lang==="eng"?"INVEST":"বিনিয়োগ করুন"}
+                <div className="inline-block bg-home-color text-white text-sm text-center rounded-lg shadow-lg py-3 px-10 lg:px-10 cursor-pointer">
+                  {lang === "eng" ? "INVEST" : "বিনিয়োগ করুন"}
                 </div>
               </Link>
               <div
                 onClick={() => {
                   setIsReacted(!isReacted);
                 }}
-                className={`flex items-center text-black border tracking-widest text-sm text-center rounded-lg shadow-lg py-3 px-10 cursor-pointer ${
+                className={`flex items-center text-black border text-sm text-center rounded-lg shadow-lg py-3 px-10 cursor-pointer ${
                   isReacted && "border-pink-200 shadow-pink-200"
                 }`}
               >
@@ -156,7 +169,7 @@ const ProductHeader = () => {
                     isReacted ? "text-[#F40B5F]" : "text-gray-200"
                   }`}
                 />
-                {lang==="eng"?"WISH":"প্রিয় তালিকাভুক্ত"}
+                {lang === "eng" ? "WISH" : "প্রিয়"}
               </div>
             </div>
           </div>

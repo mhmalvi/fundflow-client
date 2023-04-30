@@ -30,7 +30,7 @@ const ExploreFilter = () => {
   };
 
   return (
-    <div className="px-2 lg:px-5">
+    <div className="px-4 lg:px-30">
       <div className="explore_shine bg-home-color rounded-2xl max-w-[1280px] mx-auto p-4 lg:p-10 mt-20 shadow-xl">
         <div className="flex flex-col lg:flex-row justify-between">
           <Fade direction="left" triggerOnce>

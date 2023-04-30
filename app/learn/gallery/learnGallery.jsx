@@ -59,21 +59,23 @@ const LearnGallery = () => {
     ],
   };
   return (
-    <div className="max-w-[1280px] px-5 mx-auto mt-20 overflow-hidden">
+    <div className="max-w-[1280px] px-4 lg:px-30 mx-auto mt-20 overflow-hidden">
       <div className="flex justify-between items-center mb-4">
-        <div className="text-xl lg:text-2xl">{lang==="eng"?`Trending Items`:`ট্রেন্ডিং আইটেমস্‌`}</div>
+        <div className="text-xl lg:text-2xl">
+          {lang === "eng" ? `Trending Items` : `ট্রেন্ডিং আইটেমস্‌`}
+        </div>
         <div className="flex items-center">
           <div
             onClick={() => sliderRef.current.slickPrev()}
-            className="w-[40px] h-[50px] bg-[#5143F6] flex items-center shadow-md cursor-pointer text-white tracking-widest text-sm text-center mr-3"
+            className="w-[40px] h-[50px] text-[#5143F6] hover:text-white hover:bg-[#5143F6] duration-500 flex items-center cursor-pointer tracking-widest text-sm text-center mr-3"
           >
             <SliderArrow className="text-3xl m-auto rotate-180" />
           </div>
           <div
             onClick={() => sliderRef.current.slickNext()}
-            className="w-[40px] h-[50px] flex items-center cursor-pointer text-[#5143F6] font-semibold tracking-widest text-sm text-center"
+            className="w-[40px] h-[50px] flex items-center cursor-pointer text-[#5143F6] hover:text-white hover:bg-[#5143F6] duration-500 font-semibold tracking-widest text-sm text-center"
           >
-            <SliderArrow className="text-3xl m-auto text-home-color" />
+            <SliderArrow className="text-3xl m-auto" />
           </div>
         </div>
       </div>
@@ -93,13 +95,21 @@ const LearnGallery = () => {
                     <div className="rounded-full inline-block bg-indigo-300 text-indigo-600 shadow-md px-3 py-2">
                       {product?.medium}
                     </div>
-                    <div>{lang==="eng"? (product?.raised):(product?.ban_raised)}</div>
+                    <div>
+                      {lang === "eng" ? product?.raised : product?.ban_raised}
+                    </div>
                   </div>
-                  <div className="text-xl my-5">{lang==="eng"? (product?.title):(product?.ban_title)}</div>
-                  <div className="text-sm pb-8">{lang==="eng"? (product?.description):(product?.ban_description)}</div>
+                  <div className="text-xl my-5">
+                    {lang === "eng" ? product?.title : product?.ban_title}
+                  </div>
+                  <div className="text-sm pb-8">
+                    {lang === "eng"
+                      ? product?.description
+                      : product?.ban_description}
+                  </div>
                   <Link href={"./learn/gallery/details"}>
                     <div className="w-9/12 bg-home-color mx-auto text-white tracking-widest text-sm text-center rounded-md py-3 px-4 cursor-pointer">
-                    {lang==="eng"? `Admission Now`:`ভর্তি নিন`}
+                      {lang === "eng" ? `Admission Now` : `ভর্তি নিন`}
                     </div>
                   </Link>
                 </div>

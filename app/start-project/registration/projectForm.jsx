@@ -17,7 +17,7 @@ const ProjectForm = () => {
   };
   return (
     <div className="bg-gray-100">
-      <div className="max-w-[1280px] px-5 mx-auto pt-20">
+      <div className="max-w-[1280px] px-4 lg:px-30 mx-auto pt-36">
         <div className="text-2xl lg:text-4xl font-semibold mb-5">
           {lang==="eng"? "Let’s get ready to start your campaign!":"আপনার প্রচারাভিযান শুরু করার জন্য প্রস্তুত!"}
         </div>

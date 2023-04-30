@@ -10,7 +10,7 @@ import { useSelector } from "react-redux";
 const Footer = () => {
   const { lang } = useSelector((state) => state?.language);
   return (
-    <div className="max-w-[1280px] px-5 pt-10 lg:pt-20 mx-auto overflow-hidden">
+    <div className="max-w-[1280px] px-5 lg:px-30 pt-10 lg:pt-20 mx-auto overflow-hidden">
       <div className="border-t pb-5"></div>
       <div className="w-11/12 lg:w-full flex justify-between items-center mx-auto lg:m-0">
         <Fade direction="left" triggerOnce>

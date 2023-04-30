@@ -20,7 +20,7 @@ const About = () => {
     return orbs;
   };
   return (
-    <div className="max-w-[1280px] mx-auto pt-10 lg:pt-0 pb-14 lg:pb-36 relative overflow-hidden">
+    <div className="max-w-[1280px] mx-auto pt-10 lg:pt-0 pb-14 lg:pb-36 relative overflow-hidden lg:px-30">
       <div className="hidden lg:block wrapAbout">{RenderGlobe()}</div>
       <div className="flex flex-col-reverse lg:flex-row justify-evenly items-center">
         <div className="w-11/12 lg:w-1/2 m-auto mr-auto">

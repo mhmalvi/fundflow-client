@@ -28,7 +28,7 @@ const ProfileTab = () => {
 
   return (
     <div className="w-full h-screen lg:flex overflow-x-hidden">
-      <div className="hidden lg:block w-[25rem] h-full bg-home-color text-white z-50">
+      <div className="hidden lg:block w-[25rem] h-full bg-home-color text-white">
         <Link href={"./"}>
         <div className='text-2xl font-semibold pl-20 py-20 cursor-pointer'>QUADQUE</div>
         </Link>

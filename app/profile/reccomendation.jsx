@@ -34,7 +34,7 @@ const Reccomendation = () => {
     console.log(selectedCat);
   return (
     <div className="lg:h-[100vh] overflow-y-auto pb-10">
-      <div className="2xl:w-9/12 h-auto mx-auto p-5 lg:p-20">
+      <div className="2xl:w-9/12 h-auto mx-auto p-5 lg:p-0 lg:pt-30 lg:px-20">
         <div
           onClick={showModal}
           className="inline-block bg-home-color rounded-md text-white text-center px-2 py-2 mb-5 cursor-pointer"

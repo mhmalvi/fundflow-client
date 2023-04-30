@@ -61,21 +61,21 @@ const EventsGallery = () => {
   };
 
   return (
-    <div className="max-w-[1280px] px-5 mx-auto mt-10 lg:mt-20 overflow-hidden">
+    <div className="max-w-[1280px] mx-auto mt-10 lg:mt-20 overflow-hidden px-4 lg:px-30 xl:px-0">
       <div className="hidden lg:block ">
         <div className="flex justify-end items-center mb-4 mr-10">
           <div className="flex items-center">
             <div
               onClick={() => sliderRef.current.slickPrev()}
-              className="w-[40px] h-[50px] bg-[#5143F6] flex items-center shadow-md cursor-pointer text-white tracking-widest text-sm text-center mr-3"
+              className="w-[40px] h-[50px] text-[#5143F6] hover:text-white hover:bg-[#5143F6] duration-500 flex items-center cursor-pointer tracking-widest text-sm text-center mr-3"
             >
               <SliderArrow className="text-3xl m-auto rotate-180" />
             </div>
             <div
               onClick={() => sliderRef.current.slickNext()}
-              className="w-[40px] h-[50px] flex items-center cursor-pointer text-[#5143F6] font-semibold tracking-widest text-sm text-center"
+              className="w-[40px] h-[50px] flex items-center cursor-pointer text-[#5143F6] hover:text-white hover:bg-[#5143F6] duration-500 font-semibold tracking-widest text-sm text-center"
             >
-              <SliderArrow className="text-3xl m-auto text-home-color" />
+              <SliderArrow className="text-3xl m-auto" />
             </div>
           </div>
         </div>
@@ -86,9 +86,9 @@ const EventsGallery = () => {
           <Slider ref={sliderRef} {...settings} arrows={false}>
             {Events?.map((product, i) => (
               <Link key={i} href={"/events/event"}>
-                <div className="pb-24 lg:pb-44 relative flex justify-center items-center">
+                <div className="pb-24 lg:pb-44 relative flex justify-center items-center mx-4">
                   <div
-                    className={`${product?.bgColor} lg:w-[90%] h-[23rem] rounded-3xl`}
+                    className={`${product?.bgColor} lg:w-[100%] h-[23rem] rounded-3xl`}
                   ></div>
                   <div className="w-full lg:w-auto absolute top-[68px] mx-auto">
                     <Image
@@ -97,8 +97,14 @@ const EventsGallery = () => {
                       className="w-full rounded-3xl"
                     />
                     <div className="w-1/2 mx-auto">
-                      <div className="text-xl my-5">{lang==="eng"? (product?.title):(product?.ban_title)}</div>
-                      <div className="text-sm pb-8">{lang==="eng"? (product?.description):(product?.ban_description)}</div>
+                      <div className="text-xl my-5">
+                        {lang === "eng" ? product?.title : product?.ban_title}
+                      </div>
+                      <div className="text-sm pb-8">
+                        {lang === "eng"
+                          ? product?.description
+                          : product?.ban_description}
+                      </div>
                     </div>
                   </div>
                 </div>

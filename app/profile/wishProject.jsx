@@ -32,7 +32,7 @@ const WishProject = () => {
   console.log(isFavourite);
   return (
     <div className="lg:h-[100vh] overflow-y-auto pb-10">
-      <div className="2xl:w-9/12 h-auto mx-auto p-5 lg:p-20">
+      <div className="2xl:w-9/12 h-auto mx-auto p-5 lg:p-0 lg:pt-30 lg:px-20">
         <div className="grid lg:grid-cols-3 gap-5">
           {Products?.map((prod) => (
             <Fade triggerOnce key={prod?.id}>

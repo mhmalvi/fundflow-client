@@ -32,19 +32,41 @@ const Navbar = () => {
       id="Navbar"
       className="w-full absolute top-0 bg-transparent z-40 overflow-hidden"
     >
-      <nav className="bg-transparent text-black relative max-w-[1280px] mx-auto">
+      <nav className="bg-transparent text-black relative max-w-[1280px] mx-auto lg:px-30">
         <div className="flex justify-between pt-5 pb-13">
           <Link href={"./"}>
             <div
-              className={`${(pathname === "/learnPayment") && "lg:text-white"} ${(pathname === "/login") && "lg:text-white"} ${(pathname === "/payment") && "lg:text-white"} ${pathname==="/profile" && "lg:hidden"} flex justify-center items-center text-xl text-center font-bold cursor-pointer pl-4 xl:pl-0`}
+              className={`${pathname === "/learnPayment" && "lg:text-white"} ${
+                pathname === "/login" && "lg:text-white"
+              } ${pathname === "/payment" && "lg:text-white"} ${
+                pathname === "/profile" && "lg:hidden"
+              } flex justify-center items-center text-xl text-center font-bold cursor-pointer pl-4 xl:pl-0`}
             >
               QUADQUE
             </div>
           </Link>
           <div className="flex justify-between items-center gap-2 ">
             <div className="flex gap-5 font-semibold text-gray-400 pr-5 lg:pr-0">
-              <div onClick={()=> {dispatch(SET_LANG("eng"))}} className={`${lang === "eng" && "text-black duration-700"} cursor-pointer`}>EN</div>
-              <div onClick={()=> {dispatch(SET_LANG("ban"))}} className={`${lang === "ban" && "text-black duration-700"} cursor-pointer`}>BN</div>
+              <div
+                onClick={() => {
+                  dispatch(SET_LANG("eng"));
+                }}
+                className={`${
+                  lang === "eng" && "text-black duration-700"
+                } cursor-pointer`}
+              >
+                EN
+              </div>
+              <div
+                onClick={() => {
+                  dispatch(SET_LANG("ban"));
+                }}
+                className={`${
+                  lang === "ban" && "text-black duration-700"
+                } cursor-pointer`}
+              >
+                BN
+              </div>
             </div>
             <CustomSearch search={search} handleSearch={handleSearch} />
             <div

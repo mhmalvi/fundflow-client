@@ -10,29 +10,31 @@ import { useSelector } from "react-redux";
 const LearnHeader = () => {
   const { lang } = useSelector((state) => state?.language);
   return (
-    <div className="px-3 lg:px-5">
+    <div className="px-4 lg:px-30">
       <div className="bg-home-color rounded-2xl lg:rounded-none max-w-[1280px] mx-auto mt-20 overflow-hidden">
         <div className="w-full lg:h-[85vh] flex flex-col-reverse lg:flex-row justify-between items-center">
           <Fade direction="left" triggerOnce>
             <div className="w-full h-full bg-home-color rounded-bl-2xl lg:rounded-tl-2xl rounded-br-2xl lg:rounded-br-none text-white py-8 pl-4 pr-4 lg:pl-8 lg:pr-20">
               <div className="text-sm lg:text-xl mb-5 lg:mt-10">
-              {lang==="eng"? `LOREM IPSUM`:`লোরেম ইপসাম`}
+                {lang === "eng" ? `LOREM IPSUM` : `লোরেম ইপসাম`}
               </div>
               <div className="text-2xl lg:text-5xl font-semibold mb-5 lg:mt-10">
-              {lang==="eng"? `Bring A Creative Project To Life.`:`একটি সৃজনশীল প্রকল্পকে জীবন দিন।`}
+                {lang === "eng"
+                  ? `Bring A Creative Project To Life.`
+                  : `একটি সৃজনশীল প্রকল্পকে জীবন দিন।`}
               </div>
               <div className="mb-10 text-sm lg:text-base">
-              {lang==="eng"? 
-                `Below, we answer the questions people most often have about
+                {lang === "eng"
+                  ? `Below, we answer the questions people most often have about
                 crowdfunding when they’re trying to decide if they want to start
                 an online fundraiser.`
-                :`নীচে, আমরা প্রায়শই লোকেরা যে প্রশ্নগুলি করে তার উত্তর দিই৷
+                  : `নীচে, আমরা প্রায়শই লোকেরা যে প্রশ্নগুলি করে তার উত্তর দিই৷
                 ক্রাউডফান্ডিং যখন তারা সিদ্ধান্ত নেওয়ার চেষ্টা করছে তারা শুরু করতে চায় কিনা
                 একটি অনলাইন তহবিল সংগ্রহকারী।`}
               </div>
               <Link href={"./learn/gallery"}>
                 <div className="inline-block bg-white text-indigo-500 hover:text-indigo-700 hover:scale-105 duration-500 tracking-[.3em] text-sm text-center py-3 px-5 cursor-pointer lg:text-base">
-                {lang==="eng"? `GET STARTED`:`শুরু করুন`}
+                  {lang === "eng" ? `GET STARTED` : `শুরু করুন`}
                 </div>
               </Link>
               <div className="flex mt-5">

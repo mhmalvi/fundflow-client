@@ -9,7 +9,7 @@ import { useSelector } from "react-redux";
 const CreateProject = () => {
   const { lang } = useSelector((state) => state?.language);
   return (
-    <div className="max-w-[1280px] px-5 mx-auto pt-20">
+    <div className="max-w-[1280px] mx-auto pt-40 px-4 lg:px-30">
       <div className="text-2xl lg:text-4xl font-bold mb-5">
         {lang === "eng" ? "Lorem Ipsum is simply dummy text" : "লোরেম ইপসাম হল মূলত মুদ্রণ"}
       </div>
@@ -129,7 +129,7 @@ const CreateProject = () => {
             </ul>
           </Fade>
         </div>
-        <div className="lg:w-1/3 flex flex-wrap justify-center m-auto overflow-hidden">
+        <div className="lg:w-1/2 flex flex-wrap justify-center m-auto overflow-hidden">
           <Slide direction="right" triggerOnce>
             <Link href={"/start-project/registration"}>
               <div className="w-[8rem] lg:w-[10rem] lg:h-[8rem] flex justify-center items-center border-2 border-home-color hover:bg-home-color lg:text-2xl text-home-color hover:text-white rounded-xl p-5 m-2 lg:m-4">
