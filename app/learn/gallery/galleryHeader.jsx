@@ -8,8 +8,8 @@ const GalleryHeader = () => {
   return (
     <div className="max-w-[1280px] px-4 lg:px-30 mx-auto my-20">
       <Zoom triggerOnce>
-        <div className="w-full bg-home-color rounded-2xl py-16 px-5 lg:px-16 learn_shine">
-          <div className="bg-white bg-opacity-30 lg:bg-transparent backdrop:filter backdrop-blur-sm lg:backdrop-blur-0 rounded-2xl shadow-md lg:shadow-none p-5">
+        <div className="w-full bg-home-color rounded-2xl lg:px-16 learn_shine">
+          <div className="bg-black bg-opacity-30 backdrop:filter backdrop-blur-sm lg:bg-transparent lg:backdrop-blur-none rounded-2xl px-8 py-12">
             <div className="text-white text-2xl lg:text-4xl font-semibold pb-5">
               {lang === "eng" ? `Learn` : `শিখুন`}
             </div>
@@ -21,8 +21,8 @@ const GalleryHeader = () => {
               </div>
             ) : (
               <div className="lg:w-5/12 text-white text-sm lg:text-base">
-                Lorem Ipsum হল মুদ্রণ এবং টাইপসেটিং এর ডামি পাঠ্য শিল্প <br />{" "}
-                Lorem Ipsum হল মুদ্রণের ডামি টেক্সট এবং টাইপসেটিং শিল্প।
+                টাইপসেটিং হল মুদ্রণ এবং টাইপসেটিং এর ডামি পাঠ্য শিল্প <br />
+                টাইপসেটিং হল মুদ্রণের ডামি টেক্সট এবং টাইপসেটিং শিল্প।
               </div>
             )}
           </div>
