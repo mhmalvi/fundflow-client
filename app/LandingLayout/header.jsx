@@ -45,7 +45,7 @@ const Header = () => {
           <div className="w-full lg:h-[71vh] flex flex-col lg:flex-row justify-between relative">
             <div className="w-full bg-gradient-to-r from-[#4d3cff] to-[#6456ff] rounded-tl-2xl rounded-tr-2xl lg:rounded-tr-none lg:rounded-bl-2xl text-white py-8 pl-4 pr-4 lg:pl-8 lg:pr-20">
               <Fade direction="left" triggerOnce>
-                <div className="text-3xl lg:text-[60px] lg:leading-[60px] font-semibold mb-5 lg:mt-10">
+                <div className="text-3xl lg:text-[60px] lg:leading-[70px] font-semibold mb-5 lg:mt-10">
                 {lang === "eng" ? (
                   "Bring A Creative Project To Life."
                   ) : (

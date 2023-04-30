@@ -27,7 +27,7 @@ const UsersTab = () => {
       setShowTabs(!showTabs);
     };
   return (
-    <div className='bg-admin-color'>
+    <div className='bg-admin-color lg:px-27'>
     <div className="w-full max-w-[1280px] mx-auto h-auto lg:h-screen lg:flex bg-admin-color overflow-hidden">
       <div className="hidden lg:block w-[30rem] h-full text-white z-50 py-20">
         <div className='h-full bg-admin-secondary-color rounded-2xl py-20'>

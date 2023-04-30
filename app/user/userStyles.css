@@ -1,6 +1,6 @@
 /* Overriding antd modal */
 
-.UpdateModal .ant-modal,
+.createUpdate .ant-modal,
 .ant-modal-content {
     height: 100%;
     width: 100%;
@@ -8,19 +8,29 @@
     top: 0;
 }
 
-.UpdateModal .ant-modal-body {
-    height: 100%;
-    width: 100%;
+.createUpdate .ant-modal-body {
+    height: 95vh;
 }
 
-.UpdateModal .ant-modal-content {
-    background-color: transparent !important;
+.createUpdate .ant-modal-content {
+    background-color: #1C2039 !important;
     border-radius: 0 !important;
     color: #ffffff !important;
 }
 
-.UpdateModal .ant-modal-title {
+.createUpdate .ant-modal-title {
     background-color: white !important;
     border-radius: 0 !important;
     color: #ffffff !important;
+}
+
+.createUpdate .ant-modal-close-x {
+    display: block;
+    font-size: 24px !important;
+    font-weight: 800 !important;
+    color: rgb(255, 255, 255) !important;
+    line-height: 22px;
+    text-align: center;
+    text-transform: none;
+    text-rendering: auto;
 }
