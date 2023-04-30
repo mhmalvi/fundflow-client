@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Atika Kawsar",
+    "ban_name": "আতিকা কাওসার",
+    "designation": "CEO & Founder",
+    "ban_designation": "সিইও এবং প্রতিষ্ঠাতা",
+    "image": ""
+  },
+  {
+    "id": 2,
+    "name": "Lionel Messi",
+    "ban_name": "লিওনেল মেসি",
+    "designation": "CEO & Founder",
+    "ban_designation": "সিইও এবং প্রতিষ্ঠাতা",
+    "image": ""
+  },
+  {
+    "id": 3,
+    "name": "Christiano Ronaldo",
+    "ban_name": "ক্রিস্টিয়ানো রোনাল্ডো",
+    "designation": "CEO & Founder",
+    "ban_designation": "সিইও এবং প্রতিষ্ঠাতা",
+    "image": ""
+  },
+  {
+    "id": 4,
+    "name": "Wayne Rooney",
+    "ban_name": "উয়েন রুনি",
+    "designation": "CEO & Founder",
+    "ban_designation": "সিইও এবং প্রতিষ্ঠাতা",
+    "image": ""
+  },
+  {
+    "id": 5,
+    "name": "Luka Modrić",
+    "ban_name": "লুকা মোদ্রিচ",
+    "designation": "CEO & Founder",
+    "ban_designation": "সিইও এবং প্রতিষ্ঠাতা",
+    "image": ""
+  },
+  {
+    "id": 6,
+    "name": "Mo Salah",
+    "ban_name": "মোহামেদ সালাহ",
+    "designation": "CEO & Founder",
+    "ban_designation": "সিইও এবং প্রতিষ্ঠাতা",
+    "image": ""
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Startup Start",
+    "medium": "Virtual (ভার্চুয়াল)",
+    "description": "Our new seminar in wordpress 26 June Our new wordpress 26 June",
+    "ban_title": "স্টার্টআপ স্টার্ট",
+    "ban_description": "ওয়ার্ডপ্রেসে আমাদের নতুন সেমিনার ২৬ জুন আমাদের নতুন ওয়ার্ডপ্রেস ২৬ জুন।",
+    "raised": "$2280",
+    "ban_raised": "$২৬৪১",
+    "image": "",
+    "profit": 1
+  },
+  {
+    "id": 2,
+    "title": "Office Place Choice",
+    "medium": "In Class (ক্লাসরুমে)",
+    "description": "Our new seminar in wordpress 26 June Our new wordpress 26 June",
+    "ban_title": "অফিস প্লেস পছন্দ",
+    "ban_description": "ওয়ার্ডপ্রেসে আমাদের নতুন সেমিনার ২৬ জুন আমাদের নতুন ওয়ার্ডপ্রেস ২৬ জুন।",
+    "raised": "$4580",
+    "ban_raised": "$৫৩২৪",
+    "image": "",
+    "profit": 0
+  },
+  {
+    "id": 3,
+    "title": "Make Nice Meeting",
+    "medium": "Virtual (ভার্চুয়াল)",
+    "description": "Our new seminar in wordpress 26 June Our new wordpress 26 June",
+    "ban_title": "সুন্দর মিটিং করুন",
+    "ban_description": "ওয়ার্ডপ্রেসে আমাদের নতুন সেমিনার ২৬ জুন আমাদের নতুন ওয়ার্ডপ্রেস ২৬ জুন।",
+    "raised": "$2000",
+    "ban_raised": "$৮০০৩",
+    "image": "",
+    "profit": 1
+  },
+  {
+    "id": 4,
+    "title": "Make Nice Meeting",
+    "medium": "In Class (ক্লাসরুমে)",
+    "description": "Our new seminar in wordpress 26 June Our new wordpress 26 June",
+    "ban_title": "সুন্দর মিটিং করুন",
+    "ban_description": "ওয়ার্ডপ্রেসে আমাদের নতুন সেমিনার ২৬ জুন আমাদের নতুন ওয়ার্ডপ্রেস ২৬ জুন।",
+    "raised": "$7280",
+    "ban_raised": "$১৮২৬",
+    "image": "",
+    "profit": 0
+  },
+  {
+    "id": 5,
+    "title": "Startup Start",
+    "medium": "Virtual (ভার্চুয়াল)",
+    "description": "Our new seminar in wordpress 26 June Our new wordpress 26 June",
+    "ban_title": "স্টার্টআপ স্টার্ট",
+    "ban_description": "ওয়ার্ডপ্রেসে আমাদের নতুন সেমিনার ২৬ জুন আমাদের নতুন ওয়ার্ডপ্রেস ২৬ জুন।",
+    "raised": "$6080",
+    "ban_raised": "$২৬৪১",
+    "image": "",
+    "profit": 1
+  },
+  {
+    "id": 6,
+    "title": "Startup Start",
+    "medium": "In Class (ক্লাসরুমে)",
+    "description": "Our new seminar in wordpress 26 June Our new wordpress 26 June",
+    "ban_title": "স্টার্টআপ স্টার্ট",
+    "ban_description": "ওয়ার্ডপ্রেসে আমাদের নতুন সেমিনার ২৬ জুন আমাদের নতুন ওয়ার্ডপ্রেস ২৬ জুন।",
+    "raised": "$280",
+    "ban_raised": "$৯৪৬৫",
+    "image": "",
+    "profit": 0
+  },
+  {
+    "id": 7,
+    "title": "Office Place Choice",
+    "medium": "Virtual (ভার্চুয়াল)",
+    "description": "Our new seminar in wordpress 26 June Our new wordpress 26 June",
+    "ban_title": "অফিস প্লেস পছন্দ",
+    "ban_description": "ওয়ার্ডপ্রেসে আমাদের নতুন সেমিনার ২৬ জুন আমাদের নতুন ওয়ার্ডপ্রেস ২৬ জুন।",
+    "raised": "$880",
+    "ban_raised": "$২৬৪১",
+    "image": "",
+    "profit": 0
+  },
+  {
+    "id": 8,
+    "title": "Make Nice Meeting",
+    "medium": "In Class (ক্লাসরুমে)",
+    "description": "Our new seminar in wordpress 26 June Our new wordpress 26 June",
+    "ban_title": "সুন্দর মিটিং করুন",
+    "ban_description": "ওয়ার্ডপ্রেসে আমাদের নতুন সেমিনার ২৬ জুন আমাদের নতুন ওয়ার্ডপ্রেস ২৬ জুন।",
+    "raised": "$8000",
+    "ban_raised": "$৬৫৪৩",
+    "image": "",
+    "profit": 0
+  },
+  {
+    "id": 9,
+    "title": "Lorem Ipsum",
+    "medium": "Virtual (ভার্চুয়াল)",
+    "description": "Our new seminar in wordpress 26 June Our new wordpress 26 June",
+    "ban_title": "লোরেম ইপসাম",
+    "ban_description": "ওয়ার্ডপ্রেসে আমাদের নতুন সেমিনার ২৬ জুন আমাদের নতুন ওয়ার্ডপ্রেস ২৬ জুন।",
+    "raised": "$8000",
+    "ban_raised": "$৯৮৪১",
+    "image": "",
+    "profit": 1
+  },
+  {
+    "id": 10,
+    "title": "Lorem Ipsum",
+    "medium": "In Class (ক্লাসরুমে)",
+    "description": "Our new seminar in wordpress 26 June Our new wordpress 26 June",
+    "ban_title": "স্টার্টআপ স্টার্ট",
+    "ban_description": "ওয়ার্ডপ্রেসে আমাদের নতুন সেমিনার ২৬ জুন আমাদের নতুন ওয়ার্ডপ্রেস ২৬ জুন।",
+    "raised": "$8000",
+    "ban_raised": "$৩৩১২",
+    "image": "",
+    "profit": 1
+  }
+]

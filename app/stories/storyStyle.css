@@ -1,0 +1,29 @@
+.story_shine {
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.story_shine::before {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    top: -90px;
+    left: 65%;
+    width: 500px;
+    height: 500px;
+    background-image: url("../../public/assets/images/story-banner.png");
+}
+
+@media screen and (max-width: 450px) {
+    .story_shine::before {
+        z-index: -1;
+        content: "";
+        position: absolute;
+        top: -90px;
+        left: 45%;
+        width: 500px;
+        height: 500px;
+        background-image: url("../../public/assets/images/story-banner.png");
+    }
+}

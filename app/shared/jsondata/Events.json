@@ -1,0 +1,136 @@
+[
+  {
+    "id": 1,
+    "title": "Apple",
+    "bgColor": "bg-red-200",
+    "description": "IT Technology",
+    "ban_description": "আইটি প্রযুক্তি",
+    "ban_title": "আপেল",
+    "time": "16 December, 2023",
+    "raised": "$2280",
+    "image": "https://i.ibb.co/XbbzBWp/event1.png"
+  },
+  {
+    "id": 2,
+    "title": "DHL",
+    "bgColor": "bg-green-200",
+    "description": "IT Technology",
+    "ban_description": "আইটি প্রযুক্তি",
+    "ban_title": "ডিএইচএল",
+    "time": "16 December, 2023",
+    "raised": "$4580",
+    "image": "https://i.ibb.co/Fg7yFSq/event2.png"
+  },
+  {
+    "id": 3,
+    "title": "Nike",
+    "bgColor": "bg-blue-200",
+    "description": "IT Technology",
+    "ban_description": "আইটি প্রযুক্তি",
+    "ban_title": "নাইক",
+    "time": "16 December, 2023",
+    "raised": "$2000",
+    "image": "https://i.ibb.co/sRwHsxh/event3.png"
+  },
+  {
+    "id": 4,
+    "title": "Okla",
+    "bgColor": "bg-yellow-200",
+    "description": "IT Technology",
+    "ban_description": "আইটি প্রযুক্তি",
+    "ban_title": "ওকলা",
+    "time": "16 December, 2023",
+    "raised": "$7280",
+    "image": "https://i.ibb.co/5X0TDqj/event4.png"
+  },
+  {
+    "id": 5,
+    "title": "Atari",
+    "ban_title": "Apple",
+    "bgColor": "bg-red-200",
+    "description": "IT Technology",
+    "ban_description": "আইটি প্রযুক্তি",
+    "ban_title": "আটারি",
+    "time": "16 December, 2023",
+    "raised": "$6080",
+    "image": "https://i.ibb.co/XbbzBWp/event1.png"
+  },
+  {
+    "id": 6,
+    "title": "Google",
+    "bgColor": "bg-green-200",
+    "description": "IT Technology",
+    "ban_description": "আইটি প্রযুক্তি",
+    "ban_title": "গুগল",
+    "time": "16 December, 2023",
+    "raised": "$280",
+    "image": "https://i.ibb.co/Fg7yFSq/event2.png"
+  },
+  {
+    "id": 7,
+    "title": "Microsoft",
+    "bgColor": "bg-blue-200",
+    "description": "IT Technology",
+    "ban_description": "আইটি প্রযুক্তি",
+    "ban_title": "মাইক্রোসফট",
+    "time": "16 December, 2023",
+    "raised": "$880",
+    "image": "https://i.ibb.co/sRwHsxh/event3.png"
+  },
+  {
+    "id": 8,
+    "title": "Ubisoft",
+    "bgColor": "bg-yellow-200",
+    "description": "IT Technology",
+    "ban_description": "আইটি প্রযুক্তি",
+    "ban_title": "ইউবিসফট",
+    "time": "16 December, 2023",
+    "raised": "$8000",
+    "image": "https://i.ibb.co/5X0TDqj/event4.png"
+  },
+  {
+    "id": 9,
+    "title": "SpaceX",
+    "ban_title": "Apple",
+    "bgColor": "bg-red-200",
+    "description": "IT Technology",
+    "ban_description": "আইটি প্রযুক্তি",
+    "ban_title": "স্পেসএক্স",
+    "time": "16 December, 2023",
+    "raised": "$8000",
+    "image": "https://i.ibb.co/XbbzBWp/event1.png"
+  },
+  {
+    "id": 10,
+    "title": "CISRO",
+    "bgColor": "bg-green-200",
+    "description": "IT Technology",
+    "ban_description": "আইটি প্রযুক্তি",
+    "ban_title": "বাংলাদেশী মহাকাশ গবেষণা সংস্থা",
+    "time": "16 December, 2023",
+    "raised": "$8000",
+    "image": "https://i.ibb.co/Fg7yFSq/event2.png"
+  },
+  {
+    "id": 11,
+    "title": "EA Sports",
+    "bgColor": "bg-blue-200",
+    "description": "IT Technology",
+    "ban_description": "আইটি প্রযুক্তি",
+    "ban_title": "ইএ স্পোর্টস",
+    "time": "16 December, 2023",
+    "raised": "$8000",
+    "image": "https://i.ibb.co/Fg7yFSq/event2.png"
+  },
+  {
+    "id": 12,
+    "title": "Rockstar Games",
+    "bgColor": "bg-yellow-200",
+    "description": "IT Technology",
+    "ban_description": "আইটি প্রযুক্তি",
+    "ban_title": "রকস্টার গেমস",
+    "time": "16 December, 2023",
+    "raised": "$8000",
+    "image": "https://i.ibb.co/Fg7yFSq/event2.png"
+  }
+]

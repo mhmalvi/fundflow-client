@@ -1,0 +1,85 @@
+.investor_shine {
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.investor_shine::before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  top: -150px;
+  left: -80px;
+  width:760px;
+  height: 1000px;
+  background: #5956e9;
+  transform: rotate(-20deg);
+}
+
+@media screen and (max-width: 450px) {
+  .investor_shine::before {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    top: -150px;
+    left: 250px;
+    width: 700px;
+    height: 1000px;
+    background: #5956e9;
+    transform: rotate(-20deg);
+  }
+}
+
+/* .youtubePlayer > iframe {
+  width: 100%;
+} */
+
+@media screen and (max-width: 500px) {
+  .youtubePlayer>iframe {
+      width: 100%;
+      border-bottom-right-radius: 16px;
+      border-bottom-left-radius: 16px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+  .youtubePlayer>iframe {
+      width: 360px;
+      height: 260px;
+    }
+}
+@media screen and (max-width: 1366px) {
+  .youtubePlayer>iframe {
+      width: 100%;
+    }
+}
+
+.hero-banner {
+  background-image: url("../../public/assets/images/Placeholder.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-banner2 {
+  background-image: url("../../public/assets/images/placeholder2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* FRAMER MOTION PARALLAX  *//* FRAMER MOTION PARALLAX  *//* FRAMER MOTION PARALLAX  *//* FRAMER MOTION PARALLAX  */
+.box {
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.magic {
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}

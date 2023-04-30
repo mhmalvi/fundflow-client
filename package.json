@@ -1,0 +1,39 @@
+{
+  "name": "crowd-funding-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@netlify/plugin-nextjs": "^4.33.0",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@svgr/webpack": "^7.0.0",
+    "antd": "^5.3.3",
+    "dayjs": "^1.11.7",
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "framer-motion": "^10.12.3",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-awesome-reveal": "^4.2.3",
+    "react-dom": "18.2.0",
+    "react-quill": "^2.0.0",
+    "react-redux": "^8.0.5",
+    "react-slick": "^0.29.0",
+    "react-youtube": "^10.1.0",
+    "redux": "^4.2.1",
+    "redux-persist": "^6.0.0",
+    "sass": "^1.60.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
+  }
+}

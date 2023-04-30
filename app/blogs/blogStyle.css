@@ -1,0 +1,29 @@
+.blog_shine {
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.blog_shine::before {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 60%;
+    width: 600px;
+    height: 600px;
+    background-image: url("../../public/assets/images/blog-banner.png");
+}
+
+@media screen and (max-width: 450px) {
+    .blog_shine::before {
+        z-index: -1;
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 30%;
+        width: 400px;
+        height: 400px;
+        background-image: url("../../public/assets/images/blog-banner.png");
+    }
+}

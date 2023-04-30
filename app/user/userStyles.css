@@ -1,0 +1,26 @@
+/* Overriding antd modal */
+
+.UpdateModal .ant-modal,
+.ant-modal-content {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    top: 0;
+}
+
+.UpdateModal .ant-modal-body {
+    height: 100%;
+    width: 100%;
+}
+
+.UpdateModal .ant-modal-content {
+    background-color: transparent !important;
+    border-radius: 0 !important;
+    color: #ffffff !important;
+}
+
+.UpdateModal .ant-modal-title {
+    background-color: white !important;
+    border-radius: 0 !important;
+    color: #ffffff !important;
+}

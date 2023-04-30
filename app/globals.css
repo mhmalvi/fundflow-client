@@ -1,0 +1,441 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Montserrat";
+  background-color: rgb(243, 244, 246);
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(./shared/Font/Montserrat/Montserrat-VariableFont_wght.ttf) format('truetype');
+}
+
+.active-option {
+  width: 4px;
+  color: #7037ff;
+  background-color: #7037ff;
+  border-radius: 2px 0px 0px 2px;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  font-family: "Poppins";
+}
+
+.tbl-header {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.tbl-content {
+  height: 642px;
+  overflow-x: auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+th {
+  padding: 18px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  color: #000000;
+  border-bottom: 1px solid #e6edff;
+}
+
+td {
+  padding: 18px;
+  text-align: left;
+  vertical-align: middle;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #000000;
+  border-bottom: 1px solid #e6edff;
+  text-align: left;
+}
+
+table.custom-table>tbody>tr:hover td {
+  background-color: rgb(250, 250, 250) !important;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Calendar */
+.calendar-wrapper {
+  position: relative;
+}
+
+.fade {
+  position: absolute;
+  bottom: 0px;
+  display: block;
+  width: 100%;
+  background-image: linear-gradient(to right,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.9) 100%);
+}
+
+.calendar-wrapper {
+  width: 50%;
+  overflow: auto;
+  position: relative;
+}
+
+.calendar-fader-left {
+  content: "";
+  position: absolute;
+  width: 20%;
+  left: -26px;
+  top: 0;
+  bottom: 0;
+  background-image: linear-gradient(to right,
+      #ffffff,
+      rgba(255, 255, 255, 0.243) 200px);
+}
+
+.calendar-fader-right {
+  content: "";
+  position: absolute;
+  width: 20%;
+  right: 0px;
+  top: 0;
+  bottom: 0;
+  background-image: linear-gradient(to left,
+      #ffffff,
+      rgba(0, 128, 128, 0) 200px);
+}
+
+.slick-current {
+  font-weight: 600;
+  color: black;
+}
+
+.ant-picker-input>input {
+  display: none;
+}
+
+.anticon-close-circle {
+  display: none !important;
+}
+
+.custom-picker::after {
+  /* display: none; */
+  background: white !important;
+  content: "" !important;
+  color: white !important;
+  cursor: pointer;
+}
+
+.ant-select-arrow {
+  display: none;
+}
+
+/* .lead_status > .ant-select-selector { */
+/* .lead_status > .ant-space-item { */
+.lead_status .ant-space {
+  color: white;
+  white-space: nowrap;
+  border-radius: 5px !important;
+  height: 2.3rem !important;
+  width: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-family: "Poppins";
+  font-size: 14px;
+  margin: auto !important;
+  /* background-color: #17cdd9 !important; */
+}
+
+/* .lead_status .ant-select-selection-item { */
+.lead_status .ant-select-selection-item {
+  padding: 0 !important;
+  margin: auto !important;
+  font-weight: 600;
+  font-family: "Poppins";
+  font-size: 16px;
+  text-align: center;
+}
+
+.ant-dropdown-menu-title-content {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 3px;
+}
+
+/* .sub_lead_status > .ant-select-selector {
+  height: 40px !important;
+  background-color: #000000 !important;
+  color: white !important;
+  padding: 0 4px !important;
+  border-radius: 5px !important;
+  margin-left: 5px !important;
+  font-weight: 600;
+  font-family: "Poppins";
+  font-size: 16px;
+  text-align: center;
+} */
+
+.color-black>.ant-space {
+  background-color: #000000 !important;
+  color: white !important;
+  outline: none !important;
+  border: none !important;
+}
+
+.color-green>.ant-space {
+  background-color: #34c759 !important;
+  color: white !important;
+  outline: none !important;
+  border: none !important;
+}
+
+.color-orange>.ant-space {
+  background-color: #ff9500 !important;
+  color: white !important;
+  outline: none !important;
+  border: none !important;
+}
+
+.color-blue>.ant-space {
+  background-color: #4f8dea !important;
+  color: white !important;
+  outline: none !important;
+  border: none !important;
+}
+
+.color-teal>.ant-space {
+  background-color: #17cdd9 !important;
+  color: white !important;
+  outline: none !important;
+  border: none !important;
+}
+
+.color-violet>.ant-space {
+  background-color: #7037ff !important;
+  color: white !important;
+  outline: none !important;
+  border: none !important;
+}
+
+.color-red>.ant-space {
+  background-color: #ff0000 !important;
+  color: white !important;
+  outline: none !important;
+  border: none !important;
+}
+
+.sub_lead_status .ant-select-selection-item {
+  padding: 0 !important;
+  margin: auto !important;
+}
+
+.date-time-picker>.ant-picker-input>.ant-picker-suffix {
+  color: #ffffff !important;
+  font-size: 12px;
+}
+
+.message-container {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.message-container::-webkit-scrollbar {
+  display: none;
+}
+
+.ant-upload-list-picture .ant-upload-list-text::before {
+  /* display: grid;
+  grid-template-columns: auto auto; */
+  gap: 8px;
+  align-items: center;
+  margin-right: auto;
+  position: absolute;
+  left: -10px;
+  background-color: white;
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+  padding: 0px 6px 6px 6px;
+  /* border: 1px solid rgb(122, 122, 122); */
+  top: 50px;
+}
+
+.ant-upload-list {
+  position: absolute;
+  top: 7vh;
+  left: 1vh;
+  display: flex !important;
+  flex-wrap: wrap;
+  /* grid-template-columns: auto auto !important; */
+}
+
+.eway-button {
+  background-color: transparent !important;
+  border: 1px solid black !important;
+  padding: 8px 10px !important;
+  border-radius: 9999px !important;
+  margin-top: 1rem;
+}
+
+.eway-button span {
+  background-color: transparent !important;
+  color: #000000 !important;
+  font-weight: 500 !important;
+  content: "Pay Now" !important;
+}
+
+/** For Loadser */
+.loader {
+  width: 16px;
+  height: 16px;
+  box-shadow: 0 30px, 0 -30px;
+  border-radius: 4px;
+  background: currentColor;
+  display: block;
+  margin: -50px auto 0;
+  position: relative;
+  color: #7037ff;
+  transform: translateY(30px);
+  box-sizing: border-box;
+  animation: animloader 2s ease infinite;
+}
+
+.loader::after,
+.loader::before {
+  content: "";
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  box-shadow: 0 30px, 0 -30px;
+  border-radius: 4px;
+  background: currentColor;
+  color: #7037ff;
+  position: absolute;
+  left: 30px;
+  top: 0;
+  animation: animloader 2s 0.2s ease infinite;
+}
+
+.loader::before {
+  animation-delay: 0.4s;
+  left: 60px;
+}
+
+.country>.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  position: relative;
+  background-color: #fff;
+  border: none !important;
+  border-radius: 2px;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.country .ant-select-auto-complete {
+  outline: none !important;
+  border: none !important;
+  border-bottom: rgb(99 102 241) !important;
+}
+
+.ant-upload-list-item-error {
+  display: none;
+}
+
+.requisition_package .ant-select-selector {
+  position: relative;
+  background-color: #fff;
+  outline: none !important;
+  border-top: 0 !important;
+  border-right: 0 !important;
+  border-left: 0 !important;
+  border-bottom: 1px solid rgb(209 213 219 1) !important;
+  border-radius: 0.5rem !important;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  transition: all 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.ant-menu-submenu-title {
+  padding-left: 0 !important;
+  margin: -3px 0 0 0 !important;
+}
+
+@keyframes animloader {
+  0% {
+    top: 0;
+    color: #8150fd;
+  }
+
+  50% {
+    top: 30px;
+    color: rgba(255, 255, 255, 0.2);
+  }
+
+  100% {
+    top: 0;
+    color: #7944fd;
+  }
+}
+
+/* -------------------------- */
+
+/* ------------- Animations------------ */
+.animate-slowbounce {
+  animation: bounce 3s infinite;
+}
+
+@keyframes ping {
+
+  75%,
+  100% {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+}
+
+.animate-custom-ping {
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateY(-2%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.slick-current {
+  font-weight: normal;
+}
+
+.slick-dots>li>button::before {
+  background-color: #D100D1;
+  color: #D100D1;
+  border-radius: 50%;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 2px #c9c9c9;
+}
