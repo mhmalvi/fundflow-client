@@ -15,7 +15,7 @@ const LandingPage = () => {
       <Business />
       <About />
       <HowItWorks />
-      <div className='lg:px-30'>
+      <div className='px-4 lg:px-30'>
       <Investors/>
       <Accolades />
       <Articles />
