@@ -39,7 +39,7 @@ const Header = () => {
     return orbs;
   };
     return (
-      <div className="bg-home-color h-auto lg:h-screen py-20 px-5 lg:px-20 overflow-x-hidden">
+      <div className="bg-home-color h-auto lg:h-screen pt-20 lg:pt-28 pb-20 px-5 lg:px-20 overflow-x-hidden">
         <div className="hidden lg:block wrapHome">{RenderGlobe()}</div>
         <div className="border lg:h-[80vh] rounded-xl p-3 lg:p-10 max-w-[1280px] mx-auto">
           <div className="w-full lg:h-[71vh] flex flex-col lg:flex-row justify-between relative">

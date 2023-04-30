@@ -61,7 +61,7 @@ const StoriesGallery = () => {
   };
 
   return (
-    <div className="max-w-[1280px] px-4 lg:px-30 mx-auto mt-20 overflow-hidden">
+    <div className="max-w-[1280px] px-4 lg:px-30 mx-auto mt-20 lg:mt-28 overflow-hidden">
       <Zoom triggerOnce>
         <div className="w-full bg-home-color rounded-2xl p-0 lg:p-16 story_shine">
           <div className="bg-black bg-opacity-30 lg:bg-transparent backdrop:filter backdrop-blur-sm lg:backdrop-blur-0 rounded-2xl shadow-md lg:shadow-none px-8 py-12">

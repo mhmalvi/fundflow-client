@@ -11,7 +11,7 @@ const LearnHeader = () => {
   const { lang } = useSelector((state) => state?.language);
   return (
     <div className="px-4 lg:px-30">
-      <div className="bg-home-color rounded-2xl lg:rounded-none max-w-[1280px] mx-auto mt-20 overflow-hidden">
+      <div className="bg-home-color rounded-2xl lg:rounded-none max-w-[1280px] mx-auto mt-20 lg:mt-28 overflow-hidden">
         <div className="w-full lg:h-[85vh] flex flex-col-reverse lg:flex-row justify-between items-center">
           <Fade direction="left" triggerOnce>
             <div className="w-full h-full bg-home-color rounded-bl-2xl lg:rounded-tl-2xl rounded-br-2xl lg:rounded-br-none text-white py-8 pl-4 pr-4 lg:pl-8 lg:pr-20">

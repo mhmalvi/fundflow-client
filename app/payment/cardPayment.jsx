@@ -28,7 +28,7 @@ const Payment = () => {
         </div>
       </div>
       <div className="w-full lg:bg-white flex justify-center items-center relative -top-14 lg:static">
-        <div className="lg:bg-zinc-100 lg:rounded-xl w-full lg:w-[50vh] h-auto lg:h-[80vh] lg:shadow-lg mb-10">
+        <div className="w-full lg:w-[50vh] h-auto lg:h-[80vh] my-auto mb-10">
           <div className="flex justify-start"></div>
           <div className="lg:pt-8">
             <div className="flex flex-col items-center">

@@ -8,7 +8,7 @@ const EventHeader = () => {
   const { lang } = useSelector((state) => state?.language);
   return (
     <div className="px-4 lg:px-30">
-      <div className="max-w-[1280px] mx-auto mt-20">
+      <div className="max-w-[1280px] mx-auto mt-20 lg:mt-28">
         <Zoom triggerOnce>
           <div className="w-full bg-home-color rounded-2xl p-0 lg:p-16 event_shine">
             <div className="bg-black bg-opacity-30 backdrop:filter backdrop-blur-sm lg:bg-transparent lg:backdrop-blur-none rounded-2xl px-8 py-12">

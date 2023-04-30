@@ -10,7 +10,7 @@ import { useSelector } from "react-redux";
 const DetailContent = () => {
   const { lang } = useSelector((state) => state?.language);
   return (
-    <div className="max-w-[1280px] px-4 lg:px-30 mx-auto mt-20 lg:mb-20 overflow-hidden">
+    <div className="max-w-[1280px] px-4 lg:px-30 mx-auto mt-20 lg:mt-28 lg:mb-20 overflow-hidden">
       <Zoom triggerOnce>
         <Image src={Learn1} alt="img" className="w-full pb-10" />
       </Zoom>

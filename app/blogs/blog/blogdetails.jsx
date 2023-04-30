@@ -59,7 +59,7 @@ const BlogDetails = () => {
   };
   return (
     <div className="bg-[#fffbf1] lg:px-30">
-      <div className="max-w-[1280px] mx-auto flex flex-wrap justify-between lg:justify-end items-center pt-20 px-5 lg:pr-20 lg:px-0">
+      <div className="max-w-[1280px] mx-auto flex flex-wrap justify-between lg:justify-end items-center pt-20 lg:pt-28 px-5 lg:pr-20 lg:px-0">
         <Image src={Avatar2} alt="img" className="lg:hidden" />
         <div className="hover:text-home-color cursor-pointer my-2 mx-5">
           {lang === "eng" ? `Find Campaign` : `প্রচারাভিযান খুঁজুন`}

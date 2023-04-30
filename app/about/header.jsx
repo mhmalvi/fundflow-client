@@ -27,7 +27,7 @@ const AboutHeader = () => {
   const { lang } = useSelector((state) => state?.language);
 
   return (
-    <div className="max-w-[1280px] mx-auto mt-20 px-4 lg:px-18">
+    <div className="max-w-[1280px] mx-auto mt-20 lg:mt-28 px-4 lg:px-18">
       <Zoom triggerOnce>
         <div className="w-full lg:h-[400px] flex justify-center items-center bg-home-color rounded-2xl p-16 aboutus_shine">
           <div>

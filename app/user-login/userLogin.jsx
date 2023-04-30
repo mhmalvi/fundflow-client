@@ -13,7 +13,7 @@ import { useSelector } from "react-redux";
 const UserLogin = () => {
   const { lang } = useSelector((state) => state?.language);
   return (
-    <div className="bg-admin-color h-auto lg:h-screen py-20 lg:px-20">
+    <div className="bg-admin-color h-auto lg:h-screen pt-20 lg:pt-28 lg:px-20">
       <div className="max-w-[1280px] mx-auto flex flex-col lg:flex-row lg:h-[85vh] lg:border lg:p-5 rounded-2xl">
         <div className="w-full lg:bg-admin-secondary-color flex justify-center items-center rounded-tl-2xl rounded-bl-2xl">
           <div className="">

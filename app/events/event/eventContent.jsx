@@ -13,7 +13,7 @@ const EventContent = () => {
   return (
     <div className="bg-[#ececec]">
       <div className="px-4 lg:px-30">
-        <div className="max-w-[1280px] mx-auto pt-20">
+        <div className="max-w-[1280px] mx-auto pt-20 lg:pt-28">
           <Zoom triggerOnce>
             <div className="w-full bg-home-color rounded-2xl lg:p-16 event_shine">
               <div className="bg-black bg-opacity-30 backdrop:filter backdrop-blur-sm lg:bg-transparent lg:backdrop-blur-none rounded-2xl px-8 py-12">

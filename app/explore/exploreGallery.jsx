@@ -85,7 +85,7 @@ const ExploreGallery = () => {
   }
 }; */
   return (
-    <div className="max-w-[1280px] lg:px-30 mx-auto mt-10 lg:mt-20 overflow-hidden">
+    <div className="max-w-[1280px] lg:px-30 xl:px-0 mx-auto mt-10 lg:mt-20 overflow-hidden">
       <div className="hidden lg:block">
         <div className="w-11/12 lg:w-full mx-auto lg:m-0 flex justify-between items-center mb-4">
           <div className="text-2xl font-semibold">

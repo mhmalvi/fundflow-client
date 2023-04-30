@@ -44,7 +44,7 @@ const ProductHeader = () => {
     };
 
   return (
-    <div className="rounded-2xl max-w-[1280px] px-4 lg:px-30 mx-auto mt-20">
+    <div className="rounded-2xl max-w-[1280px] px-4 lg:px-30 mx-auto mt-20 lg:mt-28">
       <div className="flex flex-col lg:flex-row rounded-xl shadow-md bg-white">
         <JackInTheBox direction="left" triggerOnce className="sm:w-6/12">
           <div className="relative lg:p-5">
