@@ -3,6 +3,8 @@
 
 > 🔗 **Live:** [crowd-funding-client-two.vercel.app](https://crowd-funding-client-two.vercel.app)
 
+![fundflow-client — architecture](docs/assets/architecture.png)
+
 # FundFlow Client
 
 The frontend application for FundFlow, a crowdfunding platform where users can discover, support, and manage fundraising campaigns. Built with Next.js 13 and featuring a modern, responsive UI with Tailwind CSS and Ant Design.
